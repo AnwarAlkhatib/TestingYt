@@ -1,0 +1,14 @@
+# Ignoriere alles standardmäßig
+*
+
+# Ausnahme für .gitignore selbst
+!.gitignore
+
+# Ausnahme für main.py
+!main.py
+
+# Ignoriere  tests/__pycache__
+tests/*
+
+# Ausnahme für test_main.py
+!test_main.py
